@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Intro component with sign up form</title>
+</head>
+<body>
+
+  <main class="container | grid">
+    <section class="title-section">
+      <div>
+        <article class="title | white fw-700 fs-300">
+          <h4>Learn to code by watching others</h4>
+        </article>
+        <article class="white fw-500">
+          <p class="title-paragraph">
+            See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
+            but understanding how developers think is invaluable.
+          </p>
+        </article>
+      </div>
+    </section>
+    <section class="form-section">
+      <div>
+        <div class="trial | white fw-400 fs-100">
+          <span class="trial-text | fw-700">Try it free 7 days</span> then $20/mo. thereafter
+        </div>
+        <form id="form" action="">
+          <div class="input-field">
+            <label for="firstName"></label>
+            <input id="firstName" placeholder="First Name">
+            <img src="images/icon-error.svg" alt="">
+            <div class="err">
+              <span class="error-message"></span>
+            </div>
+          </div>
+          <div class="input-field">
+            <label for="lastName"></label>
+            <input id="lastName" placeholder="Last Name">
+            <img src="images/icon-error.svg" alt="">
+            <div class="err">
+              <span class="error-message"></span>
+            </div>
+          </div>
+          <div class="input-field">
+            <label for="email"></label>
+            <input id="email" placeholder="Email Address">
+            <img src="images/icon-error.svg" alt="">
+            <div class="err">
+              <span class="error-message"></span>
+            </div>
+          </div>
+          <div class="input-field">
+            <label for="password"></label>
+            <input id="password" placeholder="Password">
+            <img src="images/icon-error.svg" alt="">
+            <div class="err">
+              <span class="error-message"></span>
+            </div>
+          </div>
+          <button class="free-trial-btn | white fw-500 fs-100">Claim your free trial</button>
+          <p class="terms | grayish-blue-neutral fw-500">By clicking the button, you are agreeing to our
+            <span class="red-primary fw-700">Terms and Services</span>
+          </p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+<script src="script.js"></script>
+</body>
+</html>
